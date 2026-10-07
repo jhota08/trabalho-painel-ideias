@@ -17,7 +17,7 @@ export default function App(){
   setErro("Digite sua ideia antes de adicionar.");
   return;
 }
-    const nova = {
+   const nova = {
     id: Date.now(),
     texto: novaIdeia.trim(),
     feita: false
